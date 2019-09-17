@@ -1,3 +1,7 @@
+h1 {
+  color: #454545;
+}
+
 span {
   font-weight: bold;
   background: lightgray;
@@ -9,6 +13,7 @@ span {
   padding: 3em;
   border: 1px solid lightgray;
   margin-bottom: 1em;
+  background-color: white;
 
   input {
     padding: 1em;
@@ -22,5 +27,6 @@ span {
 }
 
 .notactive {
-  background-color: lightgray;
+  background-color: #454545;
+  color: white;
 }

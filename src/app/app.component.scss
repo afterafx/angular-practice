@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 
-$primary: rgb(111, 0, 255);
+$primary: rgb(143, 138, 138);
 
 body {
   margin: 0;
@@ -14,11 +14,12 @@ body {
 }
 
 header {
-  background: $primary;
+  // background: $primary;
+  background: rgba($primary, $alpha: .9);
   padding: 1em 0;
 
   a {
-    color: white;
+    color: #EEEEEE;
     text-decoration: none;
   }
 
